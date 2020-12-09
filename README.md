@@ -1,4 +1,4 @@
-# solar_system_sim_using_html5_DOM
+# solar_system_sim
 Using physics not unlike those found in the game Asteroids, I want to simulate a solar system in html5 DOM. Solar system objects represented by javascript objects represented by DOM objects (circular DIV elements).
 
 This repo was inspired by this coding challenge...
