@@ -8,13 +8,13 @@ $(document).ready(function(){
     let objectName = theObject.id.slice(0,-4);
     console.log(objectName);
     let objectImageFilePath = `../assets/${objectName}.png`;
-    
+
   }
 
   $( ".sso-btn" ).each(function() {
     $( this ).click( spawnSSO(this) );
   });
 
-
+// hi
 
 });
