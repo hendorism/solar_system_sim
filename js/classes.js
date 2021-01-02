@@ -1,9 +1,7 @@
-class Planet {
-  constructor(x, y, z, v, d) {
+class SolarSystemObject {
+  constructor(x, y, img) {
     this.x = x;
     this.y = y;
-    this.z = z;
-    this.v = v;
-    this.d = d;
+    this.img = img;
   }
 }

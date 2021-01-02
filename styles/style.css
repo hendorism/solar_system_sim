@@ -1,0 +1,40 @@
+:root {
+    --main-text-color: #22ff99;
+    --off-black: #333333;
+  }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+html {
+    color: var(--main-text-color);
+    background: url(../assets/milky-way-backdrop.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sso-btn {
+    width:70px;
+    height: 27px;
+    border-radius:0;
+    border: none;
+    background-color: var(--off-black);
+    color: var(--main-text-color);
+}
+
+.bg-img-credit {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 8px;
+}
+
+.bg-img-credit a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
